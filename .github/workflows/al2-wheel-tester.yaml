@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - fix-for-bcrypt
   schedule:
     # Run nightly
     - cron: '0 0 * * *'
