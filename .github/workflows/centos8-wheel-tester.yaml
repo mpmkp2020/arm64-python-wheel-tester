@@ -9,7 +9,8 @@ on:
 
 jobs:
   centos8_test:
-    runs-on: centos:8
+    runs-on: ubuntu-latest
+    container: centos:8
     strategy: 
       fail-fast: false
       matrix:
