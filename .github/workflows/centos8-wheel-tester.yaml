@@ -11,7 +11,7 @@ jobs:
   centos8_test:
     runs-on: [self-hosted, linux, ARM64, centos8]
     container: centos:8
-    strategy:
+    strategy: 
       fail-fast: false
       matrix:
         WHEEL:
